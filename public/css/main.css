@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(#e23636 30%, #000000 110%);
+}
+.Centerpiece {
+  border: 3px solid white;
+  overflow: hidden;
+  height: 11vh;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  white-space: nowrap;
+}
+.Centerpiece h1 {
+  font-size: 10vh;
+  color:white;
+  padding: 0;
+  margin: 0;
+}
+
+.nextText {
+  display: none;
+}
+
+.Search {
+  outline: none;
+  border: none;
+  display: none;
+  width: 11vh;
+  border-bottom: 5px solid white;
+  background: transparent;
+  font-size: 10vh;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.AnimatedInput {
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.CharacterNames {
+  font-size: 10vh;
+  cursor: pointer;
+  width: 80vw;
+  position: relative;
+}
+
+.ComicDisplay {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 30vh;
+  position: absolute;
+  left: 30vw;
+}
+.ComicDisplay img {
+   box-shadow: 2px 2px 3px #FFFFFF;
+   margin: 2vw;
+ }
+
+.ComicFormat {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.ComicFormat h1 {
+  position: absolute;
+  bottom: 1px;
+}
+
+.descText {
+  position: absolute;
+  display: none;
+  width: 15vw;
+  z-index: 3;
+}
+.ComicHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
